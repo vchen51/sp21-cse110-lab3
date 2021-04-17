@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta name="author" content="Vanessa Chen">
     <title>Journal 2</title>
+    <link rel="stylesheet" href="day1.css">
     <link rel="shortcut icon" href="images/ditto.png"/> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
 </head>
 <body>
     <main>
         <header>
-            <h1> <span>Thursday</span>, April 8th </h1>
+            <div id="header_date" style="position: fixed; background-color: white; text-align: center; padding: 0%;"> 
+                <h1> <span>THURSDAY</span>, APRIL 8</h1> </div>
             <hr>
             Hello World! ٩(｡•́‿•̀｡)۶	
             <p> Check out my other entries here! </p>
@@ -84,61 +97,7 @@
             for <br> my other quiz, but since it's basic material I think I should be okay. Maybe. (ノ_&lt;。)
             </section>
 
-            <hr>
-
-            <details>
-            <summary> On a brighter note! </summary>
-            Here are some things that make my days that aren't so great, a lot better! (´｡• ᵕ •｡`)	<br>
-            I found a <a href="https://twitter.com/plounce">Twitter account</a> that posts really <b>odd drawings of cats</b>: <br>
-            <img border="0" alt="cat_blanket" src="https://pbs.twimg.com/media/Eyd5TnzVIAMkR6-?format=png&name=medium" width="400">
-            <img border="0" alt="cat_blanket" src="https://pbs.twimg.com/media/EyWIj_LVIAUJ4qL?format=png&name=medium" width="400">
-            <img border="0" alt="cat_blanket" src="https://pbs.twimg.com/media/EyJwkxxVIAAbvRW?format=png&name=medium" width="400">
-            <img border="0" alt="cat_blanket" src="https://pbs.twimg.com/media/ExtRRYWVgAcNcYe?format=png&name=medium" width="400">
-            <br>
-            Some other cool things that I enjoy include:
-            <ul> 
-                <li> 
-                    My <b>favorite song </b>: <br> <audio controls>
-                    <source src="images/lucy_bad.mp3" type="audio/mpeg">
-                    <source src="images/lucy_bad.ogg" type="audio/ogg"> 
-                    Your browser does not support the audio element.
-                    </audio> 
-                </li>
-                <li> A video of my <b>favorite</b> singer: <br>
-                    <video width="320" height="240" controls>
-                        <source src="images/stove_lucy.mp4" type="video/mp4">
-                        <source src="images/stove_lucy.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
-                        </video>
-                </li>
-            </ul>
-            </details>    
-
-            <form action="/action_page.php">
-                <fieldset>
-                    <legend>Make your own:</legend>
-                    <label for="fname">Journal Name:</label>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="w3review">Journal Description:</label> <br>
-                    <textarea id="w3review" name="w3review" rows="4" cols="50"> Write stuff here </textarea> <br>
-                    <label for="favorite">Choose your favorite journal entry:</label>
-                    <input list="favorites" name="favorite" id="favorite">
-                    <datalist id="favorites">
-                        <option value="Day 1">
-                        <option value="Day 2">
-                        <option value="Day 3">
-                    </datalist> <br>
-                    <label for="second">Choose your second favorite journal entry:</label>
-                    <select name="second" id="second">
-                        <option value="one">Day 1</option>
-                        <option value="two">Day 2</option>
-                        <option value="three">Day 3</option>
-                    </select><br><br>
-                    <input type="submit" value="Submit"> <br><br>
-                    <button type="button" onclick="alert('Bye!')">Click Me To Say Bye!</button>
-                </fieldset>
-                </form>
-            </section>
+            <footer><i> By: Vanessa Chen </i></footer>
     </main>
     </body>
 </html>

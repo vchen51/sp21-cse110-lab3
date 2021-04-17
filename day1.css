@@ -1,0 +1,119 @@
+#header_date1 {
+    padding:0px;
+    margin:0px;
+    color: #302851;
+}
+
+#boxes {
+    width: 50vw;
+    padding: 15pt;
+    height: auto;
+    margin: auto;
+    background: #faf9ff;
+}
+
+
+.center {
+    margin: auto;
+    border: 0;
+    width: 100%
+}
+
+/* introduction and links */
+.hello {
+    height: auto;
+    display: block;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: #aaa0d0;
+    color: hsl(0, 0%, 100%);
+    padding: 40px;
+    margin: 0px;
+}
+
+.inner {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* to-do lists */
+.column {
+    height: auto;
+    float: left;
+    width: 35%;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+/* column stuff */
+.schedule {
+    padding: 20px;
+    margin: 0px 0px 0px 0px
+}
+
+.high_low {
+    padding: 20px;
+}
+
+.venting {
+    padding: 50px;
+    background-color: #ada5cb;
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    font-size: 13px;
+    position: static;
+}
+
+/* brighter note */
+.brighter {
+    padding: 5vh;
+    background-color: white;
+    border-style: solid;
+    border-color: #EBDEF0;
+    border-width: 40px;
+    border-radius: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* footer */
+.hide {
+    display: none;
+}
+
+/* details */
+.makeyourown {
+    padding: 20px;
+}
+
+body {
+    background-color: #EBDEF0;
+    font-family: 'Karla', sans-serif;
+    margin:0px;
+}
+  
+h1 {
+    color: #black;
+    font-family: 'Nunito', serif;
+}
+
+a {
+    background-color: #aaa0d0;
+    transition: background-color .5s;
+}
+
+a:hover {
+    background-color: #EBDEF0;
+}
+
+a:active { 
+    color: white; 
+} 
