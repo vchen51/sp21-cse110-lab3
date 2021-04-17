@@ -12,6 +12,20 @@
     background: #faf9ff;
 }
 
+.box {
+    display: flex;
+    flex-direction: row;
+    order: 2;
+    flex-wrap: nowrap;
+    flex-flow: column wrap;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 950px 950px;
+    grid-template-rows: auto;
+    grid-template-areas: "academic nonacademic";
+}
 
 .center {
     margin: auto;
@@ -75,6 +89,10 @@
     border-color: #EBDEF0;
     border-width: 40px;
     border-radius: 5px;
+}
+
+.cats{
+    width: 100%;
 }
 
 /* Clear floats after the columns */

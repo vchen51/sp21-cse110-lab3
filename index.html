@@ -26,6 +26,12 @@
         p {
             font-size: 12px;
         }
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class="cats"] {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -44,7 +50,7 @@
             </div>
         </header>
 
-        <div id="boxes">
+        <div id="boxes" class="grid">
         <div class="schedule"> 
             <div class="row"> 
                 <div style="text-align: center; font-size:12px; height:50px;"> <h2> schedule of the day </h2> </div>
@@ -80,7 +86,7 @@
             </div>
         </div> </div>
         <br>
-        <div id="boxes">
+        <div id="boxes" class="box">
         <div class="high_low">
             <div class="row"> 
                 <div class="inner"> 
@@ -116,11 +122,11 @@
             <div class="inner"> 
                 <div style="text-align: center; font-size: 12px;"><h2> <summary> on a brighter note! </summary> </h2> </div>
                 Here are some things that make my days that aren't so great, a lot better! (´｡• ᵕ •｡`)	<br>
-                I found a <a href="https://twitter.com/plounce">Twitter account</a> that posts really <b>odd </b>drawings of cats: <br>
+                I found a <a href="https://twitter.com/plounce">Twitter account</a> that posts really <b>odd </b>drawings of cats: <br> <div class="cats">
                 <img border="0" alt="cat_blanket" src="https://pbs.twimg.com/media/Eyd5TnzVIAMkR6-?format=png&name=medium" width="280">
                 <img border="0" alt="cat_blanket" src="https://pbs.twimg.com/media/EyWIj_LVIAUJ4qL?format=png&name=medium" width="300">
                 <img border="0" alt="cat_blanket" src="https://pbs.twimg.com/media/EyJwkxxVIAAbvRW?format=png&name=medium" width="220">
-                <img border="0" alt="cat_blanket" src="https://pbs.twimg.com/media/ExtRRYWVgAcNcYe?format=png&name=medium" width="200">
+                <img border="0" alt="cat_blanket" src="https://pbs.twimg.com/media/ExtRRYWVgAcNcYe?format=png&name=medium" width="200"> </div>
                 <br><br>
                 Some other cool things that I enjoy include:
                 <ul> 
