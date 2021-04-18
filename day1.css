@@ -20,12 +20,26 @@
     flex-flow: column wrap;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.section1{
+    grid-row: 1/2;
+}
+
+.section2 {
+    grid-row: 3/4
+}
+/* 
 .grid {
     display: grid;
     grid-template-columns: 950px 950px;
     grid-template-rows: auto;
     grid-template-areas: "academic nonacademic";
-}
+} */
 
 .center {
     margin: auto;
