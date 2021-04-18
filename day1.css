@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 #header_date1 {
     padding:0px;
     margin:0px;
@@ -133,8 +137,9 @@ body {
 }
   
 h1 {
-    color: #black;
+    color: black;
     font-family: 'Nunito', serif;
+    margin: 10px;
 }
 
 a {
@@ -142,10 +147,44 @@ a {
     transition: background-color .5s;
 }
 
+a[href="https://twitter.com/plounce"], a:active {
+    color: white;
+}
+
 a:hover {
     background-color: #EBDEF0;
 }
 
-a:active { 
-    color: white; 
-} 
+p::first-line {
+    font-style: normal;
+}
+
+li {
+    list-style-type: disc;
+  }
+  
+li li {
+    list-style-type: circle;
+}
+
+li:first-of-type + li {
+    font-style: italic;
+}
+
+div {
+    font-style: bold;
+}
+
+div > p {
+    font-style: normal;
+}
+
+p ~ a {
+    color: white;
+}
+
+div.makeyourown {
+    font-style: oblique;
+    font-size: 0.30cm;
+    font-weight: 300;
+}
