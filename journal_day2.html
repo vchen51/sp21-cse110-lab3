@@ -3,7 +3,7 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="author" content="Vanessa Chen">
-    <title>Journal 2</title>
+    <title>hi there! :~)</title>
     <link rel="stylesheet" href="day1.css">
     <link rel="shortcut icon" href="images/ditto.png"/> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,89 +15,118 @@
     <style>
         h1 {
             font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            padding: 20px;
+        }
+        h3 {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 12px;
+        }
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class="cats"] {
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
     <main>
         <header>
-            <div id="header_date" style="position: fixed; background-color: white; text-align: center; padding: 0%;"> 
+            <div id="header_date1" class="center" style="position: fixed; background-color: white; text-align: center; padding: 0%;"> 
                 <h1> <span>THURSDAY</span>, APRIL 8</h1> </div>
-            <hr>
-            Hello World! ٩(｡•́‿•̀｡)۶	
-            <p> Check out my other entries here! </p>
-            <nav>
-                <a href="/index.html">Day 1</a> |
-                <a href="/journal_day3.html">Day 3</a> 
-            </nav>
+            <br><br><br><br>
+            <div class="hello">
+                Hello World! ٩(｡•́‿•̀｡)۶	
+                <p> Check out my other entries here! </p> 
+                <nav>
+                    <a href="/index.html">day 1</a> | 
+                    <a href="/journal_day3.html">day 3</a> 
+                </nav> 
+            </div>
         </header>
-            <section> 
-            <h2> Schedule of the Day </h2>
-            <h3> Academic-Related To-Do List</h3>
-            <p> I have a lot to do, but it will be okay! ｡･ﾟ･(ﾉД`)ヽ(￣ω￣ )</p>
+
+        <div class="wrapper">
+        <div id="boxes" class="grid">
+        <div class="schedule"> 
+            <div class="row"> 
+                <div style="text-align: center; font-size:12px; height:50px;"> <h2> schedule of the day </h2> </div>
+                <div class="inner"> 
+                    <div class="column" style="padding-left: 200px;"> 
+                    <h3> Academic-Related To-Do List</h3>
+                    <p> I have a lot to do, but it will be okay! ｡･ﾟ･(ﾉД`)ヽ(￣ω￣ )</p>
+                            <i> lectures </i> <ul>
+                            <li> CSE 101 Lecture </li>
+                            <li> CSE 110 Lecture </li>     
+                            <li> CSE 8A Lab Hours </li>
+                            <li> Math 103B Study Group </li> </ul>
+                            <i> homework </i> <ul>
+                            <li> Math 103B Homework </li>
+                            <li> CSE 101 Homework </li></ul> 
+                            <i> things to prepare for </i> <ul>
+                            <li> Math 103B Quiz </li>
+                            <li> CSE 101 Quiz </li> </ul>
+                    </div> <div class="column"> 
+                    <h3> Non-Academic-Related To-Do List </h3>
+                    <p> More to do (〃＞＿＜;〃) </p>
+                        <div>
+                            <i> chores </i> <ul>
+                                <li> Take out recycling </li>
+                                <li> Prepare dinner </li>     
+                                <li> Clean the floor </li> 
+                            <i> self-care </i> <ul>
+                                <li> Drink a bottle of water every hour </li>
+                                <li> Fix your posture </li> 
+                                <li> Go to sleep by 12 A.M.</li> </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div> </div> 
+        <br>
+        <div id="boxes" class="box">
+        <div class="high_low">
+            <div class="row"> 
+                <div class="inner"> 
+                    <div style="text-align: center; font-size:12px; height:50px;"> <h2> high + lows </h2> </div>
                 
-                    <strong> Lectures </strong> 
-                    <ul>
-                        <li> CSE 101 Lecture </li>
-                        <li> CSE 110 Lecture </li>     
-                        <li> CSE 8A Lab Hours </li>
-                        <li> Math 103B Study Group </li> 
-                    </ul>
-                    <strong> Homework </strong> 
-                    <ul>
-                        <li> Math 103B Homework </li>
-                        <li> CSE 101 Homework </li>
-                    </ul>
-                    <strong> Things to Prepare For </strong>
-                    <ul>
-                        <li> Math 103B Quiz </li>
-                        <li> CSE 101 Quiz </li> 
-                    </ul>
-                
-            <h3> Non-Academic-Related To-Do List </h3>
-            <p> More to do (〃＞＿＜;〃) </p>
-                <div>
-                    <strong> Chores </strong> 
-                    <ul>
-                        <li> Take out recycling </li>
-                        <li> Prepare dinner </li>     
-                        <li> Clean the floor </li> 
-                    </ul>
-                    <strong> Self-Care </strong> 
-                    <ul>
-                        <li> Drink a bottle of water every hour </li>
-                        <li> Fix your posture </li> 
-                        <li> Go to sleep by 12 A.M.</li>
-                    </ul>
+                    <div class="column" style="padding-left: 200px;"> 
+                        <h2> </h2>
+                        <h3> Highlights </h3>
+                        <p> Serotonin boosts! (.❛ ᴗ ❛.) </p> <ol> 
+                            <li> I ate an icecream cone today </li> 
+                            <li> New songs from artists I enjoy came out </li>
+                            <li> Friends send me pictures of their cats </li> </ol>
+                    </div> <div class="column"> 
+                        <h3> Lowlights </h3>
+                        <p> What happens, happens! (&lt;﹏&gt;)  </p> <ol>
+                            <li> I have two quizzes to take tomorrow </li>    
+                            <li> My wisdom tooth still hurts </li>   
+                            <li> I woke up groggy and felt really tired </li> </ol>  
+                    </div>
                 </div>
+             </div>
+        </div> </div> </div>
+
+        <div class="venting">
+            <div class="inner">
+                <div style="text-decoration: line-through;"> <h2> venting time </h2>  </div>
+                Today was a <b>stressful</b> day, my quizzes are quickly approaching and I don't feel exactly 
+                too prepared. I was able to finish the homework on time, but I needed a lot of help by watching
+                multiple discussions and going to office hours. &lt;(￣ ﹌ ￣)> Hopefully the 2-hour study group I 
+                participated in would pay off, and spending 10+ hours on one assignment. I should've prepared more 
+                for my other quiz, but since it's basic material I think I should be okay. Maybe. (ノ_&lt;。)
             
-            <hr>
+            </div>
+        </div>
 
-            <section> 
-            <h2> High and Lows </h2>
-            <h3> Highlights </h3>
-            <p> Serotonin boosts! (.❛ ᴗ ❛.) </p> <ol> 
-                <li> I ate an icecream cone today </li> 
-                <li> New songs from artists I enjoy came out </li>
-                <li> Friends send me pictures of their cats </li> </ol>
-            <h3> Lowlights </h3>
-            <p> What happens, happens! (&lt;﹏&gt;)  </p> <ol>
-                <li> I have two quizzes to take tomorrow </li>    
-                <li> My wisdom tooth still hurts </li>   
-                <li> I woke up groggy and felt really tired </li> </ol>  
-            </section>    
-            <hr> 
-
-            <section>
-            <h2> Venting time </h2> 
-            Today was a <b>stressful</b> day, my quizzes are quickly approaching and I don't feel exactly 
-            too prepared. I was able to finish the homework on time, but I needed a lot of help by watching
-            multiple <br> discussions and going to office hours. &lt;(￣ ﹌ ￣)> Hopefully the 2-hour study group I 
-            participated in would pay off, and spending 10+ hours on one assignment. I should've prepared more 
-            for <br> my other quiz, but since it's basic material I think I should be okay. Maybe. (ノ_&lt;。)
-            </section>
-
-            <footer><i> By: Vanessa Chen </i></footer>
+        
+        <div class="hide"><footer><i> By: Vanessa Chen </i></footer></div>
+        
     </main>
     </body>
 </html>
